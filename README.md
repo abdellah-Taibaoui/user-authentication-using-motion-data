@@ -57,8 +57,20 @@ Hz.
 Cette dataset contient les donnés de mouvment du 100 personnes pour 24 sessions et chaque sessions dure 15 min
 Nous avons utilisé un ensemble de données comprenant 4 personnes pour 14
 sessions .
+
+
 3.  **la préparation des données**
 pour la préparation des données on a passées par plusieurs étapes :
+-   Phone ID
+
+-   User ID
+
+-   Document ID
+
+-   Time[ms]
+
+-   Action
+
 — Normalisation des données et les Mettre à l’échelle ou normalisez-les pour
 éliminer les biais ou les différences d’amplitude entre les différentes séries
 temporelles
