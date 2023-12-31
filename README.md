@@ -57,3 +57,15 @@ Hz.
 Cette dataset contient les donnés de mouvment du 100 personnes pour 24 sessions et chaque sessions dure 15 min
 Nous avons utilisé un ensemble de données comprenant 4 personnes pour 14
 sessions .
+3.  **la préparation des données**
+pour la préparation des données on a passées par plusieurs étapes :
+— Normalisation des données et les Mettre à l’échelle ou normalisez-les pour
+éliminer les biais ou les différences d’amplitude entre les différentes séries
+temporelles
+— Divisez les données en fenêtres de taille fixe avec un overlaping pour faciliter
+le traitement et l’analyse ultérieurs.
+— Étiquetage des données et Associer chaque segment de données à un utilisateur
+— Divisez les données préparées en ensembles d’entraînement, de validation
+et de test. L’ensemble d’entraînement est utilisé pour entraîner le modèle,
+l’ensemble de validation est utilisé pour ajuster les hyperparamètres et
+l’ensemble de test est utilisé pour évaluer les performances du modèle.
